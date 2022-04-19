@@ -136,7 +136,7 @@ const createContact = () => {
         throw error;
     }
 
-    alert(contact.toString());
+   
     return contact;
 }
 
