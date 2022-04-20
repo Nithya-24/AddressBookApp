@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="font">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="font">
+    <!--<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/HomePage.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/HomePage.css"/>
+    -->
     <link href="../css/HomePage.css" rel="stylesheet">
+    <script src="../js/Homepage.js"></script>
     <title>AddressBook HomePage</title>
 </head>
 
 <body>
-    
     <header class="header-content header">
-        <div class="logo-content">
-            <img src="../assets/logo.png" alt="logo" />
-            <div>
-                <span class="addressBook-text">Address</span><br />
-                <span class="addressBook-text addressBook-book">Book</span>
-            </div>
+      <div class="logo-content">
+        <img src="../assets/logo.png" alt="logo" />
+        <div>
+          <span class="addressBook-text">Address</span><br />
+          <span class="addressBook-text addressBook-book">Book</span>
         </div>
+      </div>
     </header>
+
     <div class="main-content">
         <div class="main-header-content">
             <div class="addressbook-detail-text">
@@ -33,7 +37,13 @@
             </a>
         </div>
     </div>
+    <div class="main-content">
+        <div class="table-main">
+            <table id="table-display" class="table">
 
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>
